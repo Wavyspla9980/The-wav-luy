@@ -1,3 +1,5 @@
 {
-    "item.the-wav-luy.mixin" : "mixin"
+    "item.the-wav-luy.mixin" : "mixin",
+    
+    "item.the-wav-luy.upgrade_armor" : "upgrade armor"
 }

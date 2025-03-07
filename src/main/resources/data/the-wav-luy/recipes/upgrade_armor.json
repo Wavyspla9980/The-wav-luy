@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "the-wav-luy:mixin"
+    },
+    "result": "the-wav-luy:upgrade_armor",
+    "count": 1
+}
+

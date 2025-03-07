@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#iD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_boots"
+        },
+        "i": {
+            "item": "the-wav-luy:upgrade_armor"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_boots",
+        "count": 1
+    }
+}
