@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#ID"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_leggings"
+        },
+        "I": {
+            "item": "the-wav-luy:upgrade_armor"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_leggings",
+        "count": 1
+    }
+}

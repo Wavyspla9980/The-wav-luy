@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#ID"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather_boots"
+        },
+        "I": {
+            "item": "the-wav-luy:upgrade_armor"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_boots",
+        "count": 1
+    },
+
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#ID"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather_boots"
+        },
+        "I": {
+            "item": "the-wav-luy:upgrade_armor"
+        },
+        "D": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_boots",
+        "count": 1
+    }
+}
