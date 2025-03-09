@@ -1,0 +1,27 @@
+package com.example.item;
+
+import com.example.Thewavluy;
+
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
+
+public class StickStone {
+    public static final Item stick = Registry.register(
+        
+    Registries.ITEM,
+    new Identifier(Thewavluy.MOD_ID,"stick_stone"),
+    new Item(new FabricItemSettings().food(null)));
+
+    public static Item reg(String name){
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(e -> {
+            e.add(stick);
+        });
+
+        return stick;
+    }
+}

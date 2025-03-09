@@ -1,5 +1,8 @@
 {
     "item.the-wav-luy.mixin" : "mixin",
     
-    "item.the-wav-luy.upgrade_armor" : "upgrade armor"
+    "item.the-wav-luy.upgrade_armor" : "upgrade armor",
+
+    "item.the-wav-luy.stick_stone" : "stick stone"
+
 }
