@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#ID"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "I": {
+            "item": "minecraft:the-wav-luy:upgrade_armor"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_chestplate",
+        "count": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Ii"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "I": {
+            "item": "the-wav-luy:upgrade_armor"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_chestplate",
+        "count": 1
+    }
+}
